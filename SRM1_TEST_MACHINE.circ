@@ -197,6 +197,7 @@
     </comp>
     <comp lib="0" loc="(1500,310)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="initial" val="0x1"/>
       <a name="label" val="RDY"/>
     </comp>
     <comp lib="0" loc="(1510,310)" name="Tunnel">
@@ -449,7 +450,13 @@
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 16 8
-0
+48 65 6c 6c 6f 20 57 6f
+72 6c 64 21 a 0 30 20
+0 0 51 9f 0 0 32 90
+0 0 90 f 0 2a 40 92
+0 0 30 22 0 1 80 f
+0 12 80 f 0 2a 65478*0 80
+f 0 e
 </a>
       <a name="line" val="dual"/>
       <a name="misaligned" val="true"/>
